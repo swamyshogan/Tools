@@ -28,12 +28,12 @@ python find_md_files.py OWNER_USERNAME REPO_NAME FOLDER_PATH [--token YOUR_TOKEN
 
 Search a public repository:
 ```bash
-python find_md_files.py microsoft vscode docs
+python mdfiles.py microsoft vscode docs
 ```
 
 Search with authentication (recommended):
 ```bash
-python find_md_files.py microsoft vscode docs --token ghp_xxxxxxxxxxxx
+python mdfiles.py microsoft vscode docs --token ghp_xxxxxxxxxxxx
 ```
 
 NOTE: 
